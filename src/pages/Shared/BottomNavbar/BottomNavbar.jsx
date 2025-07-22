@@ -12,8 +12,8 @@ const BottomNavbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-[#D42C7C] rounded-box z-1 mt-3 w-52 p-2 text-lg shadow">
-                            <li><NavLink to='/' className={({ isActive }) => isActive ? "text-[#D42C7C] font-medium" : "text-black"}>Home</NavLink></li>
+                            className="menu menu-sm dropdown-content bg-[#D42C7C] text-white rounded-box z-1 mt-3 w-52 p-2 text-lg shadow">
+                            <li><NavLink to='/' className={({ isActive }) => isActive ? "text-white font-medium" : "text-white"}>Home</NavLink></li>
                             <li>
                                 <a><NavLink to='/categories'>Categories</NavLink></a>
                                 <ul className="p-2">

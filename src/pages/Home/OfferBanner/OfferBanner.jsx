@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 const OfferBanner = () => {
     return (
         <div className="container mx-auto mt-16">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-6 dark:text-black">
                 <h1 className="text-2xl font-bold">Explore More Product</h1>
                 <p>See all</p>
             </div>

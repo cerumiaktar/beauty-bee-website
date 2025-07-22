@@ -4,7 +4,7 @@ const Category = ({ category }) => {
     const { img, title } = category;
     return (
         <div>
-            <div className="card bg-base-100 border-1 border-[#D42C7C] hover:bg-[#D42C7C] shadow-sm">
+            <div className="card bg-base-100 border-1 dark:bg-white border-[#D42C7C] hover:bg-[#D42C7C] shadow-sm">
                 <figure className="px-10 pt-10">
                     <img
                         src={img}

@@ -13,7 +13,7 @@ const FeaturedProducts = () => {
     } ,[])
     return (
         <div className="container mx-auto mt-16">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center dark:text-black justify-between mb-6">
                 <h1 className="text-2xl font-bold">Featured Products</h1>
                 <p>See all</p>
             </div>
