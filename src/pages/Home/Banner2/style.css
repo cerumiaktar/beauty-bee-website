@@ -1,10 +1,10 @@
 #Banner2 {
-  height: 100%;
+  height: 500px;
 }
 html,
 body {
   /* position: relative; */
-  height: 100%;
+  height: 500px;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 
 
@@ -27,6 +27,22 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 500px;
   object-fit: cover;
+}
+
+@media (max-width: 639px) {
+  #Banner2 {
+    height: 300px;
+  }
+  html,
+  body {
+    height: 300px;
+  }
+  .swiper {
+    height: 300px;
+  }
+  .swiper-slide img {
+    height: 300px;
+  }
 }

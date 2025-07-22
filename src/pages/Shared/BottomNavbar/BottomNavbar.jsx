@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const BottomNavbar = () => {
     return (
-        <div className='bg-base-100 shadow-sm'>
+        <div className='bg-[#D42C7C] shadow-sm'>
             <div className="navbar container mx-auto">
                 <div className="navbar-center">
                     <div className="dropdown">
@@ -12,7 +12,7 @@ const BottomNavbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 text-lg shadow">
+                            className="menu menu-sm dropdown-content bg-[#D42C7C] rounded-box z-1 mt-3 w-52 p-2 text-lg shadow">
                             <li><NavLink to='/' className={({ isActive }) => isActive ? "text-[#D42C7C] font-medium" : "text-black"}>Home</NavLink></li>
                             <li>
                                 <a><NavLink to='/categories'>Categories</NavLink></a>
@@ -32,12 +32,12 @@ const BottomNavbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center ml-96 hidden lg:flex ">
-                    <ul className="menu menu-horizontal px-1 text-lg">
-                        <li><NavLink to='/' className={({ isActive }) => isActive ? "text-[#D42C7C] font-medium" : "text-black"}>Home</NavLink></li>
+                    <ul className="menu menu-horizontal px-1 text-lg text-[#F6F6F6]">
+                        <li><NavLink to='/' className={({ isActive }) => isActive ? "text-white font-medium" : "text-[#DFDFDF]"}>Home</NavLink></li>
                         <li className="relative">
                             <details>
                                 <summary><NavLink to='/categories'>Categories</NavLink></summary>
-                                <ul className="p-2 absolute bg-base-100 shadow-lg z-50 rounded">
+                                <ul className="p-2 absolute bg-base-100 shadow-lg z-50 text-black rounded">
                                     <li><NavLink to='/categories/skincare'>Skin Care</NavLink></li>
                                     <li><NavLink to='/categories/haircare'>Hair Care</NavLink></li>
                                     <li><NavLink to='/categories/bodycare'>Body Care</NavLink></li>

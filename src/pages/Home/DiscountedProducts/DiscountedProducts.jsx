@@ -17,7 +17,7 @@ const DiscountedProducts = () => {
                 <h1 className="text-2xl font-bold">Discounted Products</h1>
                 <p>See all</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
                     discountedProducts.map((discount) =><DiscountedProduct discount = {discount}></DiscountedProduct>)
                 }
