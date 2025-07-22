@@ -10,10 +10,10 @@ const Review = ({ review }) => {
                         <img src={img} alt="" />
                         <div>
                             <h2 className="card-title">{name}</h2>
-                            <p className="text-[#333333]">{designation}</p>
+                            <p className="text-[#333333] dark:text-[#cfcfcf]">{designation}</p>
                         </div>
                     </div>
-                    <p className="text-[#333333] leading-7">{reviewText}</p>
+                    <p className="text-[#333333] dark:text-[#cfcfcf] leading-7">{reviewText}</p>
                 </div>
             </div>
         </div>
