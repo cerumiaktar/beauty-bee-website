@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/6JB7MM6z/p-1.png",
+    "title": "HydraGlow Gentle Cleanser",
+    "rating": "★★★★☆",
+    "price": "$39.99",
+    "offer": "5%"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/6cKPCBnc/p-2.png",
+    "title": "Radiance Boost Vitamin C Serum",
+    "rating": "★★★★★",
+    "price": "$24.99",
+    "offer": "10%"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/ZpczMMRC/p-3.png",
+    "title": "Renewal Night Cream",
+    "rating": "★★★☆☆",
+    "price": "$19.99",
+    "offer": "20%"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/dswMcSDT/p-4.png",
+    "title": "PureSkin Green Tea Toner",
+    "rating": "★★★★☆",
+    "price": "$44.50",
+    "offer": "15%"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/3yCdBR8k/p-5.png",
+    "title": "Radiance Boost Vitamin C Serum",
+    "rating": "★★★★★",
+    "price": "$69.99",
+    "offer": "25%"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/1fSL90tH/p-6.png",
+    "title": "PureSkin Green Tea Toner",
+    "rating": "★★★★☆",
+    "price": "$49.00",
+    "offer": "10%"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/PvMzmV3z/p-7.png",
+    "title": "HydraGlow Gentle Cleanser",
+    "rating": "★★★☆☆",
+    "price": "$15.75",
+    "offer": "2%"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/yHGYVmj/p-8.png",
+    "title": "Renewal Night Cream",
+    "rating": "★★★★★",
+    "price": "$129.99",
+    "offer": "30%"
+  }
+]

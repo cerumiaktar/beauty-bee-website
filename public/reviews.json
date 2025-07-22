@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/pBJzp1Wf/Ellipse-6.png",
+    "name": "Sarah Ahmed",
+    "designation": "Manager",
+    "reviewText": "Excellent service and quick response! Highly recommend for any business needs.service and quick response! Highly recommend for any business needs"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/pBJzp1Wf/Ellipse-6.png",
+    "name": "Tanvir Hossain",
+    "designation": "Developer",
+    "reviewText": "The user experience was flawless. The team truly understands design and usability.service and quick response! Highly recommend for any business needs"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/pBJzp1Wf/Ellipse-6.png",
+    "name": "Rina Akter",
+    "designation": "Entrepreneur",
+    "reviewText": "They helped my startup stand out with a beautiful and functional website. Very satisfied!service and quick response! Highly recommend for any business needs"
+  }
+]

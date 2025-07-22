@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/LdFqtLSS/1-2.png",
+    "title": "Skin Care"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/WpzsbZ1D/2.png",
+    "title": "Hair Care"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/pr2P2Vqs/3.png",
+    "title": "Body Care"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/yFcXySrD/4.png",
+    "title": "Combo Packs"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/ynrRshb8/5.png",
+    "title": "Baby Care"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/ynrRshb8/5.png",
+    "title": "Baby Care"
+  }
+]
