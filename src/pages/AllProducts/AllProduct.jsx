@@ -1,10 +1,9 @@
 import { FaShoppingBasket } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
-const FeaturedProduct = ({ featuredProduct }) => {
-    const { id, img, title, rating, price } = featuredProduct;
+const AllProduct = ({ allproducts }) => {
+    const { img, title, rating, price } = allproducts;
     return (
-        <div >
+        <div>
             <div className="card bg-base-100 dark:bg-white dark:text-black h-full shadow-sm border border-gray-200">
                 <figure>
                     <img className="w-full"
@@ -16,9 +15,7 @@ const FeaturedProduct = ({ featuredProduct }) => {
                     <span className="text-lg text-[#F96001]">{rating}</span>
                     <p className="text-xl font-bold">{price}</p>
                     <div className="card-actions">
-                        <Link className="md:w-full" to={`/product/${id}`}>
-                            <button className="btn bg-[#D42C7C] dark:border-none hover:bg-[#7C2C8C] text-white md:w-full"><span><FaShoppingBasket /></span>Add to Cart</button>
-                        </Link>
+                        <button className="btn bg-[#D42C7C] dark:border-none hover:bg-[#7C2C8C] md:w-full text-white"><span><FaShoppingBasket /></span>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -26,4 +23,4 @@ const FeaturedProduct = ({ featuredProduct }) => {
     );
 };
 
-export default FeaturedProduct;
+export default AllProduct;

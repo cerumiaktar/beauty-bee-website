@@ -9,7 +9,7 @@ const Root = () => {
         <div className="bg-white dark:bg-white">
             <Navbar></Navbar>
             <BottomNavbar></BottomNavbar>
-            <div>
+            <div className='min-h-screen'>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
