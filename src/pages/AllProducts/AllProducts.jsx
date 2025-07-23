@@ -10,7 +10,7 @@ const AllProducts = () => {
         .then(data=>setAllProducts(data))
     } ,[])
     return (
-        <div className='container mx-auto mt-16'>
+        <div className='container mx-auto mt-16 mb-16'>
             <h1 className="text-2xl font-bold text-center mb-6 dark:text-black">All Products</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
@@ -18,7 +18,7 @@ const AllProducts = () => {
                 }
             </div>
             <div className='text-center mt-8'>
-                <button className='btn border border-[#D42C7C] text-[#D42C7C]'>Load More</button>
+                <button className='btn border border-[#D42C7C] text-[#D42C7C] dark:bg-white'>Load More</button>
             </div>
         </div>
     );

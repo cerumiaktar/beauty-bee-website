@@ -2,7 +2,7 @@
 
 const Faq = () => {
     return (
-        <div className="container mx-auto mt-16">
+        <div className="container mx-auto mt-16 mb-16">
             <h1 className="text-2xl font-bold text-center mb-6 dark:text-black">FAQ</h1>
             <div className="space-y-6">
                 <div className="collapse collapse-arrow bg-[#FFF4F9] dark:text-black border border-base-300 dark:border-gray-300">

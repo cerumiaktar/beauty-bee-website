@@ -1,6 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { HiPlus, HiMinus } from "react-icons/hi";
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import Description from "./Description";
 
 const ProductDetails = () => {
     const products = useLoaderData();
@@ -19,6 +21,10 @@ const ProductDetails = () => {
         if (quantity > 1) {
             setquantity(prev => prev - 1)
         }
+    };
+
+    const handleToast = () =>{
+        toast("Product Add to Cart Successfully");
     }
 
 
@@ -44,7 +50,7 @@ const ProductDetails = () => {
                                 </div>
                             </div>
                             <div className="space-x-4">
-                                <button className="btn bg-[#D42C7C] text-white dark:border-none">Add to Cart</button>
+                                <button onClick={handleToast} className="btn bg-[#D42C7C] text-white dark:border-none">Add to Cart</button>
                                 <button className="btn bg-[#7C2C8C] text-white dark:border-none">Buy Now</button>
                             </div>
                             <div className="bg-[#fdf2f8] p-4 rounded-lg space-y-2">
@@ -55,7 +61,8 @@ const ProductDetails = () => {
                     </div>
                 </div>
             </div>
-
+            <ToastContainer />
+            <Description></Description>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import { LuUserRound, LuSearch } from "react-icons/lu";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoSearch } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -18,8 +19,8 @@ const Navbar = () => {
                     {/* mobile ver */}
                     <a className="btn text-[#D42C7C] border-[#D42C7C] hover:bg-[#D42C7C] hover:text-white md:text-base md:hidden dark:bg-white"><span><LuSearch /></span>Search</a>
                     {/* Web version */}
-                    <a className="btn text-[#D42C7C] dark:bg-white border-[#D42C7C] hover:bg-[#D42C7C] hover:text-white md:text-base"><span><LuUserRound /></span>Login</a>
-                    <a className="btn text-[#D42C7C] dark:bg-white border-[#D42C7C] hover:bg-[#D42C7C] hover:text-white md:text-base"><span><FiShoppingCart /></span>Cart</a>
+                    <Link to="/login"><a className="btn text-[#D42C7C] dark:bg-white border-[#D42C7C] hover:bg-[#D42C7C] hover:text-white md:text-base"><span><LuUserRound /></span>Login</a></Link>
+                    <Link to="register"><a className="btn text-[#D42C7C] dark:bg-white border-[#D42C7C] hover:bg-[#D42C7C] hover:text-white md:text-base"><span><FiShoppingCart /></span>Cart</a></Link>
                 </div>
             </div>
         </div>

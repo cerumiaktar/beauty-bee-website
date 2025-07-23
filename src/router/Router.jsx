@@ -3,6 +3,8 @@ import Root from "../Root/Root";
 import Home from "../pages/Home/Home/Home";
 import AllProducts from "../pages/AllProducts/AllProducts";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
           const res = await fetch('/products.json')
           return res.json();
         }
+      },
+      {
+        path:"/login",
+        element:<Login></Login>
+      },
+      {
+        path:"register",
+        element:<Register></Register>
       }
     ]
   },

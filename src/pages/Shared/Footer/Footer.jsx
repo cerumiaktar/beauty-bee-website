@@ -2,7 +2,7 @@ import { FaFacebookF,FaInstagram, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className="mt-16 bg-[#D42C7C]">
+        <div className="bg-[#D42C7C]">
             <footer className="footer sm:footer-horizontal container mx-auto p-10">
                 <aside>
                     <img className="w-64" src="https://i.ibb.co/zTJSHRX5/Beauty-Bee-01-1.png" alt="" />
