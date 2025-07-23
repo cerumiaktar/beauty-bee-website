@@ -9,7 +9,7 @@ const Login = () => {
                     <div className="card w-full shrink-0 shadow-2xl">
                         <div className="card-body w-full">
                             <div className="text-center">
-                                <h1 className="text-3xl font-bold">Login now!</h1>
+                                <h1 className="text-4xl font-bold">Login now!</h1>
                             </div>
                             <fieldset className="fieldset space-y-2">
                                 <label className="label">Email</label>
