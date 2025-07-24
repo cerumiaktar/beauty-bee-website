@@ -11,9 +11,9 @@ const Contact = () => {
                         <div className="card-body">
                             <h1 className="text-3xl text-black font-bold">Send a Message</h1>
                             <fieldset className="fieldset space-y-2">
-                                <label className="label">Email</label>
+                                <label className="label dark:text-black">Email</label>
                                 <input type="email" className="input md:w-full dark:text-black dark:bg-white dark:border dark:border-[#8d8d8d]" placeholder="Email" />
-                                <label className="label">Password</label>
+                                <label className="label dark:text-black">Password</label>
                                 <input type="password" className="input md:w-full dark:text-black dark:bg-white dark:border dark:border-[#8d8d8d]" placeholder="Password" />
                                 <textarea className="textarea md:w-full dark:text-black dark:bg-white dark:border dark:border-[#8d8d8d]" placeholder="Type a Message"></textarea>
                                 <button className="btn bg-[#D42C7C] text-white mt-4 dark:border-none">Submit</button>
