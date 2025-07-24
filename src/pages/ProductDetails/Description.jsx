@@ -25,7 +25,7 @@ const Description = () => {
                     </p>
                 )}
                 {activeTab === 'review' && (
-                    <ul>
+                    <ul className="dark:text-[#333333]">
                         <li>Very good quality highly recommend</li>
                         <li>Satisfied, but delivery was late.</li>
                     </ul>
