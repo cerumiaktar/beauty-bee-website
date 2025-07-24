@@ -7,12 +7,12 @@ const Description = () => {
     return (
         <div className="mt-16 mb-16 ">
             <div className="mb-4 space-x-4">
-                <button onClick={() => setActiveTab('description')} className={`btn rounded ${activeTab === 'description'
+                <button onClick={() => setActiveTab('description')} className={`btn dark:border-none rounded ${activeTab === 'description'
                     ? 'bg-[#D42C7C] text-white'
                     : 'bg-gray-200 text-gray-700'
                     }`}>Description</button>
 
-                <button onClick={() => setActiveTab('review')} className={`btn rounded ${activeTab === 'review'
+                <button onClick={() => setActiveTab('review')} className={`btn dark:border-none rounded ${activeTab === 'review'
                     ? 'bg-[#D42C7C] text-white'
                     : 'bg-gray-200 text-gray-700'
                     }`}>Reviews</button>
