@@ -11,7 +11,7 @@ const Shops = () => {
     }, [])
     return (
         <div className='container mx-auto mt-16 mb-16'>
-            <h1 className="text-2xl font-bold text-center mb-6 dark:text-black">All Products</h1>
+            <h1 className="text-2xl font-bold text-center mb-6 dark:text-black">Shop</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
                     shops.map((shop) => <Shop shop={shop}></Shop>)
