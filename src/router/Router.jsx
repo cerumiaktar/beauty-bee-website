@@ -6,6 +6,7 @@ import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Contact from "../pages/Contact/Contact";
+import Shops from "../pages/Shops/Shops";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
           const res = await fetch('/products.json')
           return res.json();
         }
+      },
+      {
+        path:"/shop",
+        element:<Shops></Shops>
       },
       {
         path:"/login",
