@@ -10,7 +10,7 @@ const FeaturedProduct = ({ featuredProduct }) => {
                     <figure>
                         <img className="w-full"
                             src={img}
-                            alt="Shoes" />
+                            alt="Featured Product Image" />
                     </figure>
                     <div className="card-body text-center">
                         <h2 className="card-title mx-auto">{title}</h2>

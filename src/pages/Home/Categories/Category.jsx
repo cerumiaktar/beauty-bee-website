@@ -8,7 +8,7 @@ const Category = ({ category }) => {
                 <figure className="px-10 pt-10">
                     <img
                         src={img}
-                        alt="Shoes"
+                        alt="category image"
                         className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">

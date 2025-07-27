@@ -11,7 +11,7 @@ const DiscountedProduct = ({ discount }) => {
                         <div className="badge bg-red-700 border-none text-white font-bold p-4 absolute top-4 left-4">{offer} OFF</div>
                         <img className="w-full"
                             src={img}
-                            alt="Shoes" />
+                            alt="Discounted Product Image" />
                     </figure>
                     <div className="card-body text-center">
                         <h2 className="card-title mx-auto">{title}</h2>
